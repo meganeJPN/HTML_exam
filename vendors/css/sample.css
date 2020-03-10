@@ -21,15 +21,14 @@ header {
 header ul {
   margin: 0;
   padding: 0;
-  /* float: right; */
+  display: flex;
 }
 
 .left {
-  float: left;
 }
 
 .right {
-  float: right;
+  margin-left: auto;
 }
 
 header ul a {
